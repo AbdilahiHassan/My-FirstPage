@@ -1,13 +1,71 @@
 body{
-    background-color: darkgray;
- 
+    background-color: #cacad6;
+   display: block;
+  position: relative;
+  max-width: 1150px;
+  max-height: 900px ;
+  margin: auto;
+  padding: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 
+header h2, header nav li{
+        display: inline;
+        font-size: 22px;
+        margin: auto;
+
+        
+    }
+  a{
+    text-decoration: none;
+    cursor: pointer;
+   margin: 7px;
+  }
+
+  .Navbar,ul,li{
+    
+      font-size: 20px;
+      margin: auto;
+      text-decoration: none;
+      cursor: pointer;
+  }
+
+
 img {
-    border: 0px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
+    border: 0px solid wheat;
+    border-radius: 17px;
+
+    margin-bottom: -15px;
+  }
+  .Test, img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+  }
+ 
+  .ListElement, ul,ol{
+
+font-size: 4x;
+position: relative;
+
+
+  }
+  .formclas {
+    
+    margin: 30px;
+    font-size: 20px;
+
+  }
+
+
+
+  .footclass{
+     background-color: #dadfe4;
+   position: relative;
+   font-size: 30px;
+ 
+
   }
   
